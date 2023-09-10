@@ -24,13 +24,13 @@ height: 400px;
 align-items: center;
 justify-content: center;
 display: flex;
-animation: scrollRight 32s infinite; /* Cambiato da scrollLeft a scrollRight */
+animation: scrollRight 32s infinite; 
 }
 
-/* Animazione per lo scorrimento da destra a sinistra */
-@keyframes scrollRight { /* Cambiato da scrollLeft a scrollRight */
+
+@keyframes scrollRight {
 100% {
-  transform: translateX(300%); /* Cambiato da -300% a 300% */
+  transform: translateX(300%); 
 }
 0% {
   transform: translateX(0%);
@@ -39,7 +39,7 @@ animation: scrollRight 32s infinite; /* Cambiato da scrollLeft a scrollRight */
 
 /* Stile per la sezione superiore */
 .hero {
-height: 400px; /* Altezza desiderata per la sezione superiore */
+height: 400px; 
 background-color: #000000;
 color: #fff;
 display: flex;
@@ -50,32 +50,32 @@ justify-content: center;
 .font {
 font-size: large;
 padding: 50px;
-margin: 20px 0 -70px 0; /* Imposta la distanza verticale dal prodotto */
+margin: 20px 0 -70px 0;
 }
 
 /* Stile per la sezione centrale dei prodotti */
 .products {
 padding: 40px;
 display: flex;
-flex-wrap: nowrap; /* Evita il wrapping degli elementi */
+flex-wrap: nowrap; 
 gap: 20px;
 border-radius: 20px;
-overflow-x: auto; /* Abilita lo scorrimento orizzontale */
-scroll-snap-type: x mandatory; /* Specifica lo snap obbligatorio sulla direzione X */
--webkit-overflow-scrolling: touch; /* Aggiungi questo per il supporto Safari */
+overflow-x: auto; 
+scroll-snap-type: x mandatory; 
+-webkit-overflow-scrolling: touch; 
 }
 
 /* Stile per i prodotti di diverse dimensioni */
 .product {
-flex: 0 0 400px; /* Larghezza fissa dei prodotti, 400px è la larghezza di ogni prodotto */
-text-align: left; /* Modifica il testo a sinistra */
+flex: 0 0 400px; 
+text-align: left; 
 background-color: #f3f0f0;
 height: 400px;
 width: 400px;
-scroll-snap-align: start; /* Specifica il punto di snap degli elementi figlio */
+scroll-snap-align: start; 
 display: flex;
-flex-direction: column; /* Imposta il contenuto in una colonna */
-justify-content: space-between; /* Allinea gli elementi all'interno in modo uniforme */
+flex-direction: column; 
+justify-content: space-between;
 }
 
 /* Stile per il pulsante di scorrimento a destra */
@@ -105,9 +105,9 @@ max-height: 200px;
 object-fit: cover;
 transition: transform 0.3s ease;
 }
-/* Aggiungiamo lo zoom quando passiamo il mouse sopra l'immagine */
+
 .product img:hover {
-transform: scale(1.1); /* Applicherà uno zoom del 10% sull'immagine */
+transform: scale(1.1); 
 }
 
 /* Stile per il testo del prodotto */
@@ -123,15 +123,15 @@ padding: 10px 20px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
-align-self: flex-end; /* Allinea il pulsante a destra */
+align-self: flex-end;
 }
 
 .nike-button {
-transition: background-color 0.3s ease; /* Effetto di transizione al passaggio del mouse */
+transition: background-color 0.3s ease; 
 }
 
 .nike-button:hover {
-background-color: #00ff08; /* Colore di sfondo al passaggio del mouse */
+background-color: #00ff08;
 }
 
 .motivation {
@@ -140,17 +140,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height: 400px; /* Altezza desiderata del div motivation */
-margin-bottom: 30px; /* Aggiunge uno spazio di 30px tra i due div */
-position: relative; /* Aggiungiamo la posizione relativa al div motivation */
+height: 400px; 
+margin-bottom: 30px; 
+position: relative; 
 }
 
 .motivation iframe {
-position: absolute; /* Aggiungiamo la posizione assoluta all'iframe */
+position: absolute; 
 top: 0;
 left: 0;
-width: 100%; /* Impostiamo la larghezza al 100% per riempire tutto il div motivation */
-height: 100%; /* Impostiamo l'altezza al 100% per riempire tutto il div motivation */
+width: 100%; 
+height: 100%;
 }
 
 
@@ -212,13 +212,13 @@ nav a {
 
 nav {
 top: 3;
-left: -30px; /* Posiziona il nav a destra */
+left: -30px; 
 width: 100%;
 background-color: rgba(0, 0, 0, 0.8);
 color: #ffffff;
 display: flex;
 align-items: center;
-justify-content: end; /* Posiziona il contenuto del nav a destra */
+justify-content: end; 
 z-index: 1;
 }
 
@@ -235,7 +235,7 @@ background-color: #000000;
 color:white;
 border-radius: 1rem;
 justify-content: center;
-/* Aggiungi altre proprietà di stile specifiche per il link attivo, se necessario */
+
 }
 
 /* Stile per il link quando si posiziona il mouse sopra */
@@ -244,7 +244,7 @@ background-color: #db6200;
 color: white;
 border-radius: 1rem;
 transition: all 10s ease-in-out;
-justify-content: center;/* Aggiungi altre proprietà di stile specifiche per il link al passaggio del mouse, se necessario */
+justify-content: center;
 }
 
 
