@@ -26,7 +26,7 @@ Se desideri eseguire il sito web clone Nike sul tuo computer locale, segui quest
 
 1. Clona o scarica il repository sul tuo computer.
 
-2. Apri il file `index.html` nel tuo browser preferito per accedere alla pagina principale del sito.
+2. Apri il file `nike.html` nel tuo browser preferito per accedere alla pagina principale del sito.
 
 3. Esplora il sito web, aggiungi prodotti al carrello, esegui il checkout e scopri tutte le funzionalità.
 
