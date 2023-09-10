@@ -13,12 +13,10 @@ Questo progetto è un clone del sito web ufficiale di Nike, ed è stato sviluppa
 
 ## Tecnologie Utilizzate
 
-Ho utilizzato diverse tecnologie per sviluppare questo sito web, tra cui:
+Ho utilizzato tecnologie per sviluppare questo sito web, tra cui:
 
 - HTML, CSS per la struttura e lo stile del sito.
 - JavaScript per la logica interattiva e le funzionalità dinamiche.
-- Bootstrap per la responsività e la creazione di layout responsive.
-- Alcune librerie JavaScript aggiuntive per migliorare l'esperienza utente.
 
 ## Istruzioni per l'Utilizzo
 
