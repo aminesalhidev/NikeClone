@@ -1,0 +1,360 @@
+
+/* Stili globali */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+/*nav */
+header {
+  padding: 1.7rem 3rem;
+  background: linear-gradient(to right, #000000, rgb(115, 8, 8));
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+  color: white;
+}
+
+.nike {
+height: 400px;
+align-items: center;
+justify-content: center;
+display: flex;
+animation: scrollRight 32s infinite; /* Cambiato da scrollLeft a scrollRight */
+}
+
+/* Animazione per lo scorrimento da destra a sinistra */
+@keyframes scrollRight { /* Cambiato da scrollLeft a scrollRight */
+100% {
+  transform: translateX(300%); /* Cambiato da -300% a 300% */
+}
+0% {
+  transform: translateX(0%);
+}
+}
+
+/* Stile per la sezione superiore */
+.hero {
+height: 400px; /* Altezza desiderata per la sezione superiore */
+background-color: #000000;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.font {
+font-size: large;
+padding: 50px;
+margin: 20px 0 -70px 0; /* Imposta la distanza verticale dal prodotto */
+}
+
+/* Stile per la sezione centrale dei prodotti */
+.products {
+padding: 40px;
+display: flex;
+flex-wrap: nowrap; /* Evita il wrapping degli elementi */
+gap: 20px;
+border-radius: 20px;
+overflow-x: auto; /* Abilita lo scorrimento orizzontale */
+scroll-snap-type: x mandatory; /* Specifica lo snap obbligatorio sulla direzione X */
+-webkit-overflow-scrolling: touch; /* Aggiungi questo per il supporto Safari */
+}
+
+/* Stile per i prodotti di diverse dimensioni */
+.product {
+flex: 0 0 400px; /* Larghezza fissa dei prodotti, 400px è la larghezza di ogni prodotto */
+text-align: left; /* Modifica il testo a sinistra */
+background-color: #f3f0f0;
+height: 400px;
+width: 400px;
+scroll-snap-align: start; /* Specifica il punto di snap degli elementi figlio */
+display: flex;
+flex-direction: column; /* Imposta il contenuto in una colonna */
+justify-content: space-between; /* Allinea gli elementi all'interno in modo uniforme */
+}
+
+/* Stile per il pulsante di scorrimento a destra */
+.scroll-right-btn {
+position: absolute;
+top: 20px;
+right: 20px;
+z-index: 1;
+background-color: #ccc;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Stile per il contenitore dei prodotti */
+.products-container {
+overflow-x: scroll;
+padding: 40px;
+}
+
+/* Stile per l'immagine del prodotto */
+.product img {
+width: 100%;
+height: 200px;
+max-height: 200px;
+object-fit: cover;
+transition: transform 0.3s ease;
+}
+/* Aggiungiamo lo zoom quando passiamo il mouse sopra l'immagine */
+.product img:hover {
+transform: scale(1.1); /* Applicherà uno zoom del 10% sull'immagine */
+}
+
+/* Stile per il testo del prodotto */
+.product-text {
+padding: 10px;
+}
+
+/* Stile per il pulsante "Acquista" */
+.nike-button {
+background-color: #000000;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+align-self: flex-end; /* Allinea il pulsante a destra */
+}
+
+.nike-button {
+transition: background-color 0.3s ease; /* Effetto di transizione al passaggio del mouse */
+}
+
+.nike-button:hover {
+background-color: #00ff08; /* Colore di sfondo al passaggio del mouse */
+}
+
+.motivation {
+background-color: #000000;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 400px; /* Altezza desiderata del div motivation */
+margin-bottom: 30px; /* Aggiunge uno spazio di 30px tra i due div */
+position: relative; /* Aggiungiamo la posizione relativa al div motivation */
+}
+
+.motivation iframe {
+position: absolute; /* Aggiungiamo la posizione assoluta all'iframe */
+top: 0;
+left: 0;
+width: 100%; /* Impostiamo la larghezza al 100% per riempire tutto il div motivation */
+height: 100%; /* Impostiamo l'altezza al 100% per riempire tutto il div motivation */
+}
+
+
+
+/* Stile per la sezione sottile delle testimonianze */
+.testimonials {
+background-color: black;
+padding: 50px;
+color: white;
+margin-bottom: 90px;
+}
+
+.testimonial {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.testimonial img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+text-align: center;
+justify-content: center;
+}
+
+/*nav */
+  header {
+  padding: 1.7rem 3rem;
+  background: linear-gradient(to right, #000000, rgb(0, 0, 0));
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+  color: white;
+
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+  .logo a {
+  color: #ffffff;
+  text-decoration: none;
+ 
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: .97rem;
+  font-weight: 600;
+  letter-spacing: .7px;
+  padding: 1rem;
+  padding: 0.4rem 1rem;
+}
+
+nav {
+top: 3;
+left: -30px; /* Posiziona il nav a destra */
+width: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: end; /* Posiziona il contenuto del nav a destra */
+z-index: 1;
+}
+
+/* Stile per i link del menu di navigazione */
+nav a {
+padding: 10px 15px;
+color: #ffffff;
+text-decoration: none;
+}
+
+/* Stile per il link attivo */
+nav a.active {
+background-color: #000000;
+color:white;
+border-radius: 1rem;
+justify-content: center;
+/* Aggiungi altre proprietà di stile specifiche per il link attivo, se necessario */
+}
+
+/* Stile per il link quando si posiziona il mouse sopra */
+nav a:hover {
+background-color: #db6200;
+color: white;
+border-radius: 1rem;
+transition: all 10s ease-in-out;
+justify-content: center;/* Aggiungi altre proprietà di stile specifiche per il link al passaggio del mouse, se necessario */
+}
+
+
+#click {
+    display: none;
+}
+
+  .menu {
+    display: none;
+}
+
+/* Nav */
+
+@media only screen and (max-width:480px) {
+
+  .menu {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ffffff;
+  }
+  
+
+  header {
+      padding: 0.7rem 1rem;
+      align-items: center;
+      max-width: 100%;
+  }
+
+  nav {
+      position: absolute;
+      display: grid;
+      top: 70px;
+      width: calc(100% - 40px);
+      text-align: center;
+      background-color: #000000;
+      left: -100%;
+      margin-left: 20px;
+  }
+
+  #click:checked~nav {
+      left: 0%;
+      transition: all 0.3s ease;
+  }
+
+  .icone {
+  border-radius: 17px;
+  }
+}
+
+/* Stile per la sezione contatti */
+.footer {
+background-color: #000;
+color: #fff;
+padding: 40px 0;
+text-align: center;
+}
+
+.footer-content,
+.footer-info {
+display: flex;
+justify-content: last baseline;
+flex-wrap: wrap;
+margin-bottom: 20px;
+}
+
+.footer-section {
+flex-basis: 20%;
+}
+
+.footer-bottom .footer-links {
+justify-content: flex-end;
+}
+
+.footer-section h3 {
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.footer-info .footer-section h3 {
+margin-top: 20px;
+}
+
+.footer-bottom {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.footer-bottom p {
+flex-basis: 100%;
+margin-bottom: 10px;
+}
+
+.footer-links {
+flex-basis: 100%;
+}
+
+.footer-links a {
+color: #fff;
+margin: 0 10px;
+text-decoration: none;
+}
+
+.footer-links a:hover {
+color: #aaa;
+}
+
+.footer-bottom .footer-links {
+justify-content: flex-end;
+}
+
