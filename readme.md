@@ -26,7 +26,7 @@ Se desideri provare questo clone sul tuo computer locale, segui questi passaggi:
 
 1. **Clona il repository** con il comando:
    ```bash
-   git clone https://github.com/TuoNomeUtente/nike-clone.git
+   https://github.com/aminesalhidev/NikeClone/edit/main/readme.md
    ```
 
 2. **Apri il file** nel tuo browser preferito per vedere la pagina principale del sito.
