@@ -8,13 +8,11 @@ Questo progetto è un **clone** del sito web ufficiale di **Nike**. L'obiettivo 
 
 - **Homepage** con prodotti in evidenza e categorie principali.
 - **Pagina di catalogo** per esplorare diverse categorie di prodotti.
-- **Pagina del prodotto** con immagini, descrizioni e dettagli sui prodotti.
-- **Carrello** per aggiungere articoli, rimuoverli e visualizzare il totale degli acquisti.
-- **Checkout** per simulare l'esperienza di acquisto online.
+
 
 ## 🔧 Tecnologie Utilizzate
 
-Per realizzare questo sito web, sono state utilizzate le seguenti tecnologie:
+Per realizzare questo sito web, sono state utilizzate le seguenti tecnologie :
 
 - **HTML5** per la struttura del sito.
 - **CSS3** per la progettazione visiva e lo stile.
@@ -26,20 +24,11 @@ Se desideri provare questo clone sul tuo computer locale, segui questi passaggi:
 
 1. **Clona il repository** con il comando:
    ```bash
-   https://github.com/aminesalhidev/NikeClone/edit/main/readme.md
+   https://github.com/aminesalhidev/NikeClone
+
    ```
 
 2. **Apri il file** nel tuo browser preferito per vedere la pagina principale del sito.
 3. **Naviga nel sito** esplorando i prodotti, aggiungendo articoli al carrello e simulando un acquisto.
 
-## 🤝 Contributi
-Questo progetto è open source! Se vuoi contribuire a migliorarlo o aggiungere nuove funzionalità, sentiti libero di:
-
-    Forkare il repository.
-    Aprire problemi per segnalare eventuali bug o suggerimenti.
-    Inviare una pull request con modifiche o miglioramenti.
-
-
-## 📬 Contatti
-Se desideri discutere del progetto o hai domande, puoi contattarmi tramite email a aminesalhioriginale@gmail.com.
 🔗 Link Utili  Sito ufficiale di Nike: Nike.com
